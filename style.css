@@ -1,0 +1,638 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+}
+
+ 
+
+.background-section {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -3;
+}
+
+.conteudo {
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -3;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 10%, rgba(10, 12, 16, 0.5) 50%, rgba(10, 12, 16, 0.99) 95%);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    gap: 70px;
+    padding: 40px;
+    position: fixed;
+    z-index: 1;
+    background: linear-gradient(270deg, rgba(10, 12, 16, 0.99) 20%, rgba(10, 12, 16, 0.5) 80%, rgba(10, 12, 16, 0.99) 85%);
+    min-width: 100%;
+    object-fit: cover;
+}
+
+header a {
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.logo {
+    border-radius: 20px;
+    width: 300px;
+
+}
+
+header a:hover {
+    height: 30px;
+    font-size: 33px;
+    transition: all 0.5s ease-out;
+    color: #b61616;
+}
+
+header a:active {
+    opacity: 0.5;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin: 40px 0 10px 0;
+    color: #b61616;
+}
+
+.p-descricao {
+    margin: 5px;
+    font-size: 24px;
+    width: 50%;
+    letter-spacing: 2px;
+    gap: 20px;
+    color: white;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.p-text {
+    width: 600px;
+    margin: 20px 0;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 5px;
+    line-height: 30px;
+}
+
+.div-logo-2 {
+    display: flex;
+    gap: 20px;
+}
+
+.zap {
+    height: 60px;
+    cursor: pointer;
+}
+
+.zap:hover {
+    height: 70px;
+    transition: all 0.5s ease-out;
+}
+
+.div-logo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 300px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+li {
+    margin: 10px 0 20px 0;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.button-1 {
+    color: #ffffff;
+    background: #b61616;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 220px;
+    height: 70px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.div-servicos {
+    margin: 130px 0 80px 0;
+}
+
+.button-2:active {
+    opacity: 0.5;
+}
+
+.div-button-2 {
+
+    text-align: center;
+}
+
+@keyframes button-2 {
+
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.button-2 {
+    color: #ffffff;
+    background: #b61616;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 220px;
+    height: 70px;
+    font-weight: bold;
+    margin-top: 20px;
+    -webkit-animation: button-2 1.5s linear infinite;
+    -moz-animation: button-2 1.5s linear infinite;
+    -ms-animation: button-2 1.5s linear infinite;
+    -o-animation: button-2 1.5s linear infinite;
+    animation: button-2 1.5s linear infinite;
+    transition: all 0.9s ease-out;
+}
+
+.button-2:hover {
+    transition: all 0.5s ease-out;
+    background: #b61616;
+    font-size: 22px;
+    color: #f0ff21;
+    animation: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 500px 0 120px;
+}
+
+footer .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: flex-end;
+}
+
+footer .redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-img-redes-sociais {
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.div-img-redes-sociais img {
+    height: 40px;
+}
+
+footer p {
+    font-weight: bold;
+    font-size: 40px;
+    color: #b61616;
+}
+
+footer a {
+    font-size: 20px;
+    color: #fff;
+}
+
+.div-servicos p {
+    margin: 40px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #b61616;
+}
+
+.logo-footer {
+    border-radius: 20px;
+    width: 300px;
+}
+
+#nav-img {
+    height: 100px;
+    border-radius: 15px;
+}
+
+.p-descricao img {
+    height: 450px;
+    border-radius: 20px;
+}
+
+.div-logo-2 img {
+    height: 500px;
+    width: 280px;
+    border-radius: 25px;
+}
+
+.zap {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    visibility: visible;
+}
+
+@media screen and (max-width: 1330px) {
+    .section-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 200px;
+        padding-top: 200px;
+    }
+
+    .div-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p-text {
+        text-align: center;
+    }
+
+    header a {
+        font-size: 24px;
+    }
+
+    header a:hover {
+        font-size: 26px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .div-logo {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    @media screen and (max-width: 1020px) {
+        header {
+            display: flex;
+            align-items: center;
+            height: 120px;
+            gap: 40px;
+            padding: 20px;
+            position: fixed;
+            z-index: 1;
+            background: linear-gradient(270deg, rgba(10, 12, 16, 0.99) 20%, rgba(10, 12, 16, 0.5) 80%, rgba(10, 12, 16, 0.99) 85%);
+            min-width: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        .p-descricao {
+            font-size: 20px;
+            letter-spacing: 0;
+        }
+
+        .logo-footer {
+            width: 220px;
+        }
+
+        #nav-img {
+            height: 80px;
+        }
+
+        header a {
+            font-size: 20px;
+        }
+
+        header a:hover {
+            font-size: 22px;
+        }
+
+        .p-text {
+            font-size: 18px;
+        }
+
+        .div-logo {
+            display: flex;
+            flex-direction: column;
+            padding-left: 0;
+        }
+
+        @media screen and (max-width: 740px) {
+            header {
+                height: 100px;
+                gap: 30px;
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+
+            .p-descricao {
+                font-size: 17px;
+                letter-spacing: 0;
+            }
+
+            .p-descricao img {
+                height: 400px;
+                border-radius: 20px;
+            }
+
+            .logo-footer {
+                width: 170px;
+            }
+
+            footer p {
+                font-size: 30px;
+            }
+
+            .div-logo-2 img {
+                height: 400px;
+                width: 180px;
+                border-radius: 25px;
+            }
+
+            .p-text {
+                width: 425px;
+                margin: 20px 0;
+                font-size: 20px;
+                color: white;
+                letter-spacing: 2px;
+                line-height: 25px;
+            }
+
+            .div-logo {
+                display: flex;
+                flex-direction: column;
+                padding-left: 0;
+            }
+
+            .div-img-redes-sociais {
+                padding: 3px;
+                gap: 10px;
+            }
+
+            @media screen and (max-width: 680px) {
+                header a {
+                    font-size: 15px;
+                }
+
+                header a:hover {
+                    font-size: 17px;
+                }
+
+                h1 {
+                    font-size: 25px;
+                }
+
+                .p-descricao {
+                    font-size: 17px;
+                    letter-spacing: 0;
+                }
+
+                .p-descricao img {
+                    height: 400px;
+                    border-radius: 20px;
+                }
+
+                .logo-footer {
+                    width: 170px;
+                }
+
+                .button-2 {
+                    margin-top: 5px;
+                }
+
+                footer p {
+                    font-size: 30px;
+                }
+
+                footer {
+                    display: flex;
+                    justify-content: space-evenly;
+                    padding: 500px 0 120px;
+                }
+
+                .zap {
+                    position: fixed;
+                    right: 20px;
+                    bottom: 10px;
+                    visibility: hidden;
+                }
+
+                .div-logo-2 img {
+                    height: 400px;
+                    width: 180px;
+                    border-radius: 25px;
+                }
+
+                .p-text {
+                    width: 425px;
+                    margin: 20px 0;
+                    font-size: 20px;
+                    color: white;
+                    letter-spacing: 2px;
+                    line-height: 25px;
+                }
+
+                .div-logo {
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 0;
+                }
+
+                .div-img-redes-sociais {
+                    padding: 3px;
+                    gap: 10px;
+                }
+
+                #nav-img {
+                    height: 60px;
+                }
+
+                @media screen and (max-width: 500px) {
+                    #nav-img {
+                        height: 40px;
+                        
+                    }
+                    
+                    header {
+                        height: 70px;
+                        width: 100vw;
+                        gap: 10px;
+                        padding: 0px;
+                    }
+
+                    header a {
+                        font-size: 13px;
+                    }
+
+                    .logo {
+                        border-radius: 20px;
+                        width: 200px;
+                    }
+
+                    .p-text {
+                        width: 259px;
+                        margin: 40px 0;
+                        font-size: 13px;
+                        color: white;
+                        letter-spacing: 0;
+                        line-height: 17px;
+                    }
+
+                    .div-servicos {
+                        margin: 180px 0 80px 0;
+                    }
+
+                    .button-1 {
+                        color: #ffffff;
+                        background: #b61616;
+                        border: none;
+                        cursor: pointer;
+                        border-radius: 8px;
+                        font-size: 15px;
+                        width: 170px;
+                        height: 50px;
+                        font-weight: bold;
+                        margin-top: 20px;
+                    }
+
+                    .div-logo-2 {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                    }
+
+                    .div-logo-2 img {
+                        height: 330px;
+                        width: 228px;
+                        border-radius: 25px;
+                    }
+
+                    .p-descricao {
+                        margin: 5px;
+                        font-size: 12px;
+                        width: 259px;
+                        letter-spacing: 0;
+                        gap: 20px;
+                        color: white;
+                        line-height: 10px;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        text-align: center;
+                        
+                    }
+
+                    .p-descricao img {
+                        height: 200px;
+                        width: 180px;
+                        border-radius: 25px;
+                        border-top: 15px;    
+                    }
+
+                    .div-servicos p {
+                        margin: 40px;
+                        text-align: center;
+                        font-size: 25px;
+                        font-weight: bold;
+                        color: #b61616;
+                    }
+
+                    li {
+                        margin: 4px 0 5px 0;
+                        font-size: 10px;
+                        color: #fff;
+                        letter-spacing: 2px;
+                    }
+
+                    .button-2 {
+                        color: #ffffff;
+                        background: #b61616;
+                        border: none;
+                        cursor: pointer;
+                        border-radius: 8px;
+                        font-size: 15px;
+                        width: 170px;
+                        height: 50px;
+                        font-weight: bold; 
+                        margin-top: 70px;
+                    }
+
+                    footer {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        padding: 400px 0 20px;
+                    }
+
+                    footer .contacts {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        justify-content: center;
+                        align-items: center;
+                        margin-bottom: 70px;
+                    }
+
+                    footer a {
+                        font-size: 15px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
